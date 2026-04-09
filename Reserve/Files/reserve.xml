@@ -1,0 +1,133 @@
+<Reserve>
+	<Animals>
+		<Animal>
+			<Id>1</Id>
+			<Name>Амурский тигр</Name>
+			<Age>5</Age>
+			<Weight>
+				<Value>215</Value>
+				<Unit>кг</Unit>
+			</Weight>
+			<Type>
+				<Category>Млекопитающее</Category>
+				<Diet>Хищник</Diet>
+			</Type>
+		</Animal>
+		
+		<Animal>
+			<Id>2</Id>
+			<Name>Зубр</Name>
+			<Age>8</Age>
+			<Weight>
+				<Value>620</Value>
+				<Unit>кг</Unit>
+			</Weight>
+			<Type>
+				<Category>Млекопитающее</Category>
+				<Diet>Травоядный</Diet>
+			</Type>
+		</Animal>
+		
+		<Animal>
+			<Id>3</Id>
+			<Name>Степной орёл</Name>
+			<Age>3</Age>
+			<Weight>
+				<Value>4</Value>
+				<Unit>кг</Unit>
+			</Weight>
+			<Type>
+				<Category>Птица</Category>
+				<Diet>Хищник</Diet>
+			</Type>
+		</Animal>
+	</Animals>
+
+	<Employees>
+		<Employee>
+			<Id>101</Id>
+			<Name>Хайруллина Юля</Name>
+			<Position>Инспектор</Position>
+			<Phone>
+				<Mobile>8-912-345-67-89</Mobile>
+			</Phone>
+			<Address>
+				<City>Ишимбай</City>
+				<Street>Лесная</Street>
+				<House>5</House>
+			</Address>
+		</Employee>
+		
+		<Employee>
+			<Id>102</Id>
+			<Name>Степанова Анна</Name>
+			<Position>Зоолог</Position>
+			<Phone>
+				<Mobile>8-912-987-65-43</Mobile>
+			</Phone>
+			<Address>
+				<City>Ишимбай</City>
+				<Street>Набережная</Street>
+				<House>12</House>
+			</Address>
+		</Employee>
+		
+		<Employee>
+			<Id>103</Id>
+			<Name>Булатова Азалия</Name>
+			<Position>Егерь</Position>
+			<Phone>
+				<Mobile>8-912-555-12-34</Mobile>
+			</Phone>
+			<Address>
+				<City>Ишимбай</City>
+				<Street>Центральная</Street>
+				<House>8</House>
+			</Address>
+		</Employee>
+	</Employees>
+
+	<Feedings>
+		<Feeding>
+			<Id>1</Id>
+			<Date>07-04-2026</Date>
+			<Animal>
+				<AnimalId>1</AnimalId>
+				<AnimalName>Амурский тигр</AnimalName>
+			</Animal>
+			<Food>
+				<Name>Говядина</Name>
+				<Amount>5</Amount>
+				<Unit>кг</Unit>
+			</Food>
+		</Feeding>
+		
+		<Feeding>
+			<Id>2</Id>
+			<Date>07-04-2026</Date>
+			<Animal>
+				<AnimalId>2</AnimalId>
+				<AnimalName>Зубр</AnimalName>
+			</Animal>
+			<Food>
+				<Name>Сено</Name>
+				<Amount>15</Amount>
+				<Unit>кг</Unit>
+			</Food>
+		</Feeding>
+		
+		<Feeding>
+			<Id>3</Id>
+			<Date>07-04-2026</Date>
+			<Animal>
+				<AnimalId>3</AnimalId>
+				<AnimalName>Степной орёл</AnimalName>
+			</Animal>
+			<Food>
+				<Name>Мыши</Name>
+				<Amount>2</Amount>
+				<Unit>шт</Unit>
+			</Food>
+		</Feeding>
+	</Feedings>
+</Reserve>

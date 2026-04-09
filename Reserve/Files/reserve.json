@@ -1,0 +1,125 @@
+{
+  "Animals": [
+    {
+      "Id": 1,
+      "Name": "Амурский тигр",
+      "Age": 5,
+      "Weight": {
+        "Value": 215,
+        "Unit": "кг"
+      },
+      "Type": {
+        "Category": "Млекопитающее",
+        "Diet": "Хищник"
+      }
+    },
+    {
+      "Id": 2,
+      "Name": "Зубр",
+      "Age": 8,
+      "Weight": {
+        "Value": 620,
+        "Unit": "кг"
+      },
+      "Type": {
+        "Category": "Млекопитающее",
+        "Diet": "Травоядный"
+      }
+    },
+    {
+      "Id": 3,
+      "Name": "Степной орёл",
+      "Age": 3,
+      "Weight": {
+        "Value": 4,
+        "Unit": "кг"
+      },
+      "Type": {
+        "Category": "Птица",
+        "Diet": "Хищник"
+      }
+    }
+  ],
+  "Employees": [
+    {
+      "Id": 101,
+      "Name": "Хайруллина Юля",
+      "Position": "Инспектор",
+      "Phone": {
+        "Mobile": "8-912-345-67-89" 
+      },
+      "Address": {
+        "City": "Ишимбай",
+        "Street": "Лесная",
+        "House": "5"
+      }
+    },
+    {
+      "Id": 102,
+      "Name": "Степанова Анна",
+      "Position": "Зоолог",
+      "Phone": {
+        "Mobile": "8-912-987-65-43"
+      },
+      "Address": {
+        "City": "Ишимбай",
+        "Street": "Набережная",
+        "House": "12"
+      }
+    },
+    {
+      "Id": 103,
+      "Name": "Булатова Азалия",
+      "Position": "Егерь",
+      "Phone": {
+        "Mobile": "8-912-555-12-34"
+      },
+      "Address": {
+        "City": "Ишимбай",
+        "Street": "Центральная",
+        "House": "8"
+      }
+    }
+  ],
+  "Feedings": [
+    {
+      "Id": 1,
+      "Date": "07-04-2026",
+      "Animal": {
+        "AnimalId": 1,
+        "AnimalName": "Амурский тигр"
+      },
+      "Food": {
+        "Name": "Говядина",
+        "Amount": 5,
+        "Unit": "кг"
+      }
+    },
+    {
+      "Id": 2,
+      "Date": "07-04-2026",
+      "Animal": {
+        "AnimalId": 2,
+        "AnimalName": "Зубр"
+      },
+      "Food": {
+        "Name": "Сено",
+        "Amount": 15,
+        "Unit": "кг"
+      }
+    },
+    {
+      "Id": 3,
+      "Date": "07-04-2026",
+      "Animal": {
+        "AnimalId": 3,
+        "AnimalName": "Степной орёл"
+      },
+      "Food": {
+        "Name": "Мыши",
+        "Amount": 2,
+        "Unit": "шт"
+      }
+    }
+  ]
+}
